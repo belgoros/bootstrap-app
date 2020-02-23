@@ -1,24 +1,18 @@
-# README
+## Rails 6 with bootstrap 4 application
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+An example app using [bootstrap](https://github.com/twbs/bootstrap-rubygem) gem, without Webpack.
+Used versions:
 
-Things you may want to cover:
+- Rails 6.0.2.
+- Ruby 2.7.0
+- Bootstrap 4
 
-* Ruby version
+### Installation
 
-* System dependencies
+- clone the project
+- navigate to the project on your teminal
+- run `bundle` to install dependencies
+- run `rails db:setup && rails db:migrate`
+- point your browser to `localhost:3000/posts`
 
-* Configuration
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
